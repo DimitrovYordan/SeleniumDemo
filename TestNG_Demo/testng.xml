@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="5">
+<listeners>
+	<listener class-name="Test_Package.Listeners"/>
+</listeners>
+<parameter name="URL" value="qaclickacademy.com"/>
+  <test name="Demo Test">
+  <parameter name="APIKey/username" value="Dani1"/>
+    <classes>
+      <class name="Test_Package.Basic_TestNG">
+  <parameter name="URL" value="google.com"/>
+      		<!--<methods>
+      			<include name="Demo"></include>
+      		</methods>-->
+      </class>      
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Home 2">
+   <parameter name="URL" value="abv.bg"/>
+   <parameter name="APIKey/username" value="Yordan"/>
+  	<classes>
+  		<class name="Test_Package.Basic_TestNG_2"/>
+      	<class name="Test_Package.Basic_TestNG_4"/>
+  	</classes>
+   </test>
+  
+  <test name="Home">
+  	<classes>
+  		<class name="Test_Package.Basic_TestNG_3">
+  		<!-- Not practicle if you have to exclude lots of methods -->
+  			<methods>
+  				<!-- <exclude name="MobileAppLoginHome"/> It's only 1 exclude-->
+  				<!--<exclude name="Mobile.*"/>  Exclude all starts with Mobile-->
+  			</methods>
+  		</class>
+  	</classes>
+  </test>
+  
+</suite> <!-- Suite -->

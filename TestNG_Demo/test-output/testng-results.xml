@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="13" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-06T16:54:08 TRT" name="Suite" finished-at="2025-06-06T16:54:08 TRT" duration-ms="142">
+    <groups>
+      <group name="DemoGr">
+        <method signature="Basic_TestNG_4.MobileAppLogin()[pri:0, instance:Test_Package.Basic_TestNG_4@3fc2959f]" name="MobileAppLogin" class="Test_Package.Basic_TestNG_4"/>
+        <method signature="Basic_TestNG_2.SecondDemo()[pri:0, instance:Test_Package.Basic_TestNG_2@2f4948e4]" name="SecondDemo" class="Test_Package.Basic_TestNG_2"/>
+        <method signature="Basic_TestNG_3.MobileAppLoginHome()[pri:0, instance:Test_Package.Basic_TestNG_3@5dda768f]" name="MobileAppLoginHome" class="Test_Package.Basic_TestNG_3"/>
+      </group> <!-- DemoGr -->
+    </groups>
+    <test started-at="2025-06-06T16:54:08 TRT" name="Demo Test" finished-at="2025-06-06T16:54:08 TRT" duration-ms="91">
+      <class name="Test_Package.Basic_TestNG">
+        <test-method signature="Demo()[pri:0, instance:Test_Package.Basic_TestNG@7cc0cdad]" started-at="2025-06-06T16:54:08 TRT" name="Demo" finished-at="2025-06-06T16:54:08 TRT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="SecondDemo(java.lang.String,java.lang.String)[pri:0, instance:Test_Package.Basic_TestNG@7cc0cdad]" started-at="2025-06-06T16:54:08 TRT" name="SecondDemo" finished-at="2025-06-06T16:54:08 TRT" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dani1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondDemo -->
+        <test-method is-config="true" signature="AfterAll()[pri:0, instance:Test_Package.Basic_TestNG@7cc0cdad]" started-at="2025-06-06T16:54:08 TRT" name="AfterAll" finished-at="2025-06-06T16:54:08 TRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterAll -->
+      </class> <!-- Test_Package.Basic_TestNG -->
+    </test> <!-- Demo Test -->
+    <test started-at="2025-06-06T16:54:08 TRT" name="Home" finished-at="2025-06-06T16:54:08 TRT" duration-ms="142">
+      <class name="Test_Package.Basic_TestNG">
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:Test_Package.Basic_TestNG@7cc0cdad]" started-at="2025-06-06T16:54:08 TRT" name="AfterSuite" finished-at="2025-06-06T16:54:08 TRT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- Test_Package.Basic_TestNG -->
+      <class name="Test_Package.Basic_TestNG_3">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:Test_Package.Basic_TestNG_3@5dda768f]" started-at="2025-06-06T16:54:08 TRT" name="BeforeSuite" finished-at="2025-06-06T16:54:08 TRT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method is-config="true" signature="BeforeAnyClass()[pri:0, instance:Test_Package.Basic_TestNG_3@5dda768f]" started-at="2025-06-06T16:54:08 TRT" name="BeforeAnyClass" finished-at="2025-06-06T16:54:08 TRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeAnyClass -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Test_Package.Basic_TestNG_3@5dda768f]" started-at="2025-06-06T16:54:08 TRT" name="BeforeMethod" finished-at="2025-06-06T16:54:08 TRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="LoginAPIHome()[pri:0, instance:Test_Package.Basic_TestNG_3@5dda768f]" started-at="2025-06-06T16:54:08 TRT" name="LoginAPIHome" finished-at="2025-06-06T16:54:08 TRT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIHome -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:Test_Package.Basic_TestNG_3@5dda768f]" started-at="2025-06-06T16:54:08 TRT" name="AfterMethod" finished-at="2025-06-06T16:54:08 TRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Test_Package.Basic_TestNG_3@5dda768f]" started-at="2025-06-06T16:54:08 TRT" name="BeforeMethod" finished-at="2025-06-06T16:54:08 TRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="MobileAppLoginHome()[pri:0, instance:Test_Package.Basic_TestNG_3@5dda768f]" started-at="2025-06-06T16:54:08 TRT" name="MobileAppLoginHome" finished-at="2025-06-06T16:54:08 TRT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileAppLoginHome -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:Test_Package.Basic_TestNG_3@5dda768f]" started-at="2025-06-06T16:54:08 TRT" name="AfterMethod" finished-at="2025-06-06T16:54:08 TRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Test_Package.Basic_TestNG_3@5dda768f]" started-at="2025-06-06T16:54:08 TRT" name="BeforeMethod" finished-at="2025-06-06T16:54:08 TRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="TestDataProvider(java.lang.String,java.lang.String)[pri:0, instance:Test_Package.Basic_TestNG_3@5dda768f]" started-at="2025-06-06T16:54:08 TRT" name="TestDataProvider" data-provider="getData" finished-at="2025-06-06T16:54:08 TRT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDataProvider -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:Test_Package.Basic_TestNG_3@5dda768f]" started-at="2025-06-06T16:54:08 TRT" name="AfterMethod" finished-at="2025-06-06T16:54:08 TRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Test_Package.Basic_TestNG_3@5dda768f]" started-at="2025-06-06T16:54:08 TRT" name="BeforeMethod" finished-at="2025-06-06T16:54:08 TRT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="TestDataProvider(java.lang.String,java.lang.String)[pri:0, instance:Test_Package.Basic_TestNG_3@5dda768f]" started-at="2025-06-06T16:54:08 TRT" name="TestDataProvider" data-provider="getData" finished-at="2025-06-06T16:54:08 TRT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDataProvider -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:Test_Package.Basic_TestNG_3@5dda768f]" started-at="2025-06-06T16:54:08 TRT" name="AfterMethod" finished-at="2025-06-06T16:54:08 TRT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Test_Package.Basic_TestNG_3@5dda768f]" started-at="2025-06-06T16:54:08 TRT" name="BeforeMethod" finished-at="2025-06-06T16:54:08 TRT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="TestDataProvider(java.lang.String,java.lang.String)[pri:0, instance:Test_Package.Basic_TestNG_3@5dda768f]" started-at="2025-06-06T16:54:08 TRT" name="TestDataProvider" data-provider="getData" finished-at="2025-06-06T16:54:08 TRT" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDataProvider -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:Test_Package.Basic_TestNG_3@5dda768f]" started-at="2025-06-06T16:54:08 TRT" name="AfterMethod" finished-at="2025-06-06T16:54:08 TRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:Test_Package.Basic_TestNG_3@5dda768f]" started-at="2025-06-06T16:54:08 TRT" name="AfterClass" finished-at="2025-06-06T16:54:08 TRT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- Test_Package.Basic_TestNG_3 -->
+    </test> <!-- Home -->
+    <test started-at="2025-06-06T16:54:08 TRT" name="Home 2" finished-at="2025-06-06T16:54:08 TRT" duration-ms="123">
+      <class name="Test_Package.Basic_TestNG_2">
+        <test-method is-config="true" signature="BeforeAnyMethod()[pri:0, instance:Test_Package.Basic_TestNG_2@2f4948e4]" started-at="2025-06-06T16:54:08 TRT" name="BeforeAnyMethod" finished-at="2025-06-06T16:54:08 TRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeAnyMethod -->
+        <test-method signature="SecondDemo()[pri:0, instance:Test_Package.Basic_TestNG_2@2f4948e4]" started-at="2025-06-06T16:54:08 TRT" name="SecondDemo" finished-at="2025-06-06T16:54:08 TRT" duration-ms="29" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at Test_Package.Basic_TestNG_2.SecondDemo(Basic_TestNG_2.java:13)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondDemo -->
+        <test-method signature="ThirdDemo(java.lang.String)[pri:0, instance:Test_Package.Basic_TestNG_2@2f4948e4]" started-at="2025-06-06T16:54:08 TRT" name="ThirdDemo" finished-at="2025-06-06T16:54:08 TRT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abv.bg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThirdDemo -->
+      </class> <!-- Test_Package.Basic_TestNG_2 -->
+      <class name="Test_Package.Basic_TestNG_4">
+        <test-method signature="MobileAppLogin()[pri:0, instance:Test_Package.Basic_TestNG_4@3fc2959f]" started-at="2025-06-06T16:54:08 TRT" name="MobileAppLogin" finished-at="2025-06-06T16:54:08 TRT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileAppLogin -->
+        <test-method signature="WebLogin()[pri:0, instance:Test_Package.Basic_TestNG_4@3fc2959f]" started-at="2025-06-06T16:54:08 TRT" name="WebLogin" finished-at="2025-06-06T16:54:08 TRT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogin -->
+        <test-method signature="LoginAPI()[pri:0, instance:Test_Package.Basic_TestNG_4@3fc2959f]" started-at="2025-06-06T16:54:08 TRT" name="LoginAPI" finished-at="2025-06-06T16:54:08 TRT" depends-on-methods="Test_Package.Basic_TestNG_4.WebLogin" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPI -->
+      </class> <!-- Test_Package.Basic_TestNG_4 -->
+    </test> <!-- Home 2 -->
+  </suite> <!-- Suite -->
+</testng-results>
