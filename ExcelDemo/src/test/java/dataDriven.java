@@ -18,7 +18,7 @@ public class dataDriven {
 	
 	public ArrayList<String> getData(String testCaseName) throws IOException {
 		// create object that can read file
-		FileInputStream fis = new FileInputStream("C:\\Tests\\TestData.xlsx");
+		FileInputStream fis = new FileInputStream(excelPath);
 		//ArrayList<String> list = new ArrayList<String>();
 		ArrayList<String> list = new ArrayList<String>();
 		
