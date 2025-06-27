@@ -25,7 +25,7 @@ public class dataProvider {
 		//Object[][] data = {{"hello", "text", 1}, {"bye", "text 2", 10}, {"han solo", "text 3", 100}};
 		//return data;
 
-		FileInputStream fis = new FileInputStream("C:\\Tests\\DataProviderData.xlsx");
+		FileInputStream fis = new FileInputStream(excelPath);
 		XSSFWorkbook book = new XSSFWorkbook(fis);
 		XSSFSheet sheet = book.getSheetAt(0);
 		int rowCount = sheet.getPhysicalNumberOfRows();
