@@ -15,7 +15,7 @@ public class Calendar {
 		String date = "21";
 		String[] expectedDate = {month, date, year};
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Install\\chromedriver-win64\\chromedriver.exe");		
+		System.setProperty("webdriver.chrome.driver", chromeDriverPath);		
 		WebDriver chromeDriver = new ChromeDriver();
 		//chromeDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		chromeDriver.get("https://rahulshettyacademy.com/seleniumPractise/#/offers");
