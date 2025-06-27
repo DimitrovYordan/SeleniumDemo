@@ -21,7 +21,7 @@ public class RSATest {
 		//caps.setPlatform(Platform.WIN11);
 		caps.setCapability(CapabilityType.BROWSER_NAME, "chrome");
 		
-		WebDriver driver = new RemoteWebDriver(new URI("http://192.168.100.114:4444").toURL(), caps);
+		WebDriver driver = new RemoteWebDriver(new URI("IPAddressFromGrid:4444").toURL(), caps);
 		driver.get("http://rahulshettyacademy.com");
 		System.out.println(driver.getTitle());
 		
