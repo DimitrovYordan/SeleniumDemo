@@ -34,7 +34,7 @@ public class ExtentReport {
 		// create report
 		ExtentTest test = extent.createTest("Initial Demo");
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Install\\chromedriver-win64\\chromedriver.exe");		
+		System.setProperty("webdriver.chrome.driver", chromeDriverPath);		
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/");
 		System.out.println(driver.getTitle());
