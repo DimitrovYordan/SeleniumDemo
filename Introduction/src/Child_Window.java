@@ -9,7 +9,7 @@ public class Child_Window {
 
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Install\\chromedriver-win64\\chromedriver.exe");		
+		System.setProperty("webdriver.chrome.driver", chromeDriverPath);		
 		WebDriver chromeDriver = new ChromeDriver();
 		chromeDriver.get("https://rahulshettyacademy.com/loginpagePractise/#");
 		chromeDriver.findElement(By.cssSelector(".blinkingText")).click();
