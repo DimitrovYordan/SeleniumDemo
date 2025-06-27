@@ -11,7 +11,7 @@ public class Delete_Cookies {
 
 	public static void main(String[] args) throws IOException {
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Install\\chromedriver-win64\\chromedriver.exe");		
+		System.setProperty("webdriver.chrome.driver", chromeDriverPath);		
 		WebDriver chromeDriver = new ChromeDriver();
 		chromeDriver.manage().window().maximize();
 		chromeDriver.manage().deleteAllCookies();
