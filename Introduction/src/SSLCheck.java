@@ -13,7 +13,7 @@ public class SSLCheck {
 		proxy.setHttpProxy("ipaddress:0000");
 		chromeOptions.setCapability("proxy", proxy);
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Install\\chromedriver-win64\\chromedriver.exe");		
+		System.setProperty("webdriver.chrome.driver", chromeDriverPath);		
 		WebDriver chromeDriver = new ChromeDriver(chromeOptions);
 		chromeDriver.get("https://expired.badssl.com/");
 		
