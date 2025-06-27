@@ -26,7 +26,7 @@ public class UploadDownloadExcel {
 		driver.get("https://rahulshettyacademy.com/upload-download-test/index.html");
 		String fruitName = "Apple";
 		String updatedValue = "610";
-		String fileName = "C:\\Users\\zaharieva\\Downloads\\download.xlsx";
+		String fileName = excelPath;
 		
 		// download
 		driver.findElement(By.cssSelector("#downloadButton")).click();
