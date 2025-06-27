@@ -9,7 +9,7 @@ public class Actions_Demo {
 
 	public static void main(String[] args) {
 		
-		//System.setProperty("webdriver.chrome.driver", "C:\\Install\\chromedriver-win64\\chromedriver.exe");		
+		//System.setProperty("webdriver.chrome.driver", chromeDriverPath);		
 		//WebDriver chromeDriver = new ChromeDriver();
 		//chromeDriver.get("https://www.amazon.com/");
 		//chromeDriver.manage().window().maximize();
@@ -23,7 +23,7 @@ public class Actions_Demo {
 		//act.moveToElement(element).contextClick().build().perform();
 		
 		// drag and drop
-		System.setProperty("webdriver.chrome.driver", "C:\\Install\\chromedriver-win64\\chromedriver.exe");		
+		System.setProperty("webdriver.chrome.driver", chromeDriverPath);		
 		WebDriver chromeDriver = new ChromeDriver();
 		chromeDriver.get("https://jqueryui.com/droppable/");
 		chromeDriver.switchTo().frame(chromeDriver.findElement(By.cssSelector("iframe.demo-frame")));
