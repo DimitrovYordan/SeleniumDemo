@@ -7,7 +7,7 @@ public class PopUp {
 	public static void main(String[] args) throws InterruptedException {
 		
 		String text = "Dani";
-		System.setProperty("webdriver.chrome.driver", "C:\\Install\\chromedriver-win64\\chromedriver.exe");		
+		System.setProperty("webdriver.chrome.driver", chromeDriverPath);		
 		WebDriver chromeDriver = new ChromeDriver();
 		chromeDriver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		chromeDriver.findElement(By.id("name")).sendKeys(text);
