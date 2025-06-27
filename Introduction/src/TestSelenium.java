@@ -6,7 +6,7 @@ public class TestSelenium {
 	public static void main(String[] args) {
 		
 	//Chromedriver.exe -> Chrome browser
-	//System.setProperty("webdriver.chrome.driver", "C:\\Install\\chromedriver-win64\\chromedriver.exe");
+	//System.setProperty("webdriver.chrome.driver", chromeDriverPath);
 	//Selenium Manager
 	WebDriver chromeDriver = new ChromeDriver();
 	chromeDriver.get("https://dariknews.bg/novini/bylgariia/tezhka-katastrofa-s-zhertva-na-magistrala-trakiia-dvizhenieto-se-prenasochva-2419593");
