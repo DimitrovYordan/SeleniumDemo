@@ -14,3 +14,7 @@ Create new Maven project -> choose (org.apache.maven.archetypes maven-archetypes
 
 UploadDownloadExcel  
 Create new Maven project -> Add into pom.xml poi ooxmi dependencies, poi dependencies, testng dependencies
+
+DEVToolsProtocolDemo  
+Create Java Project -> right click on project Configure -> Convert to Maven Project -> add Selenium Java dependency, add maven compiler plugin  
+With Selenium we send commands to CDP Methods which will give us access to chrome dev tools.
